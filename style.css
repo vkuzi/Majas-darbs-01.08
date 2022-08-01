@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.paint {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+/* Car */
+.car {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 280px;
+    right: 20px;
+
+}
+
+.car-body {
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    border-top-left-radius: 200px !important; 
+    border-radius: 50px;
+    }
+
+.windows {
+        display: flex;
+        width: 400px;
+        justify-content: space-around;
+        position: relative;
+        top: 5px;
+     }
+.front-window, .back-window {
+         background-color:blue;
+         width: 100px;
+         height: 100px;
+         border-radius: 10px;
+         
+     }
+     
+.front-window {
+    position: relative;
+    left: 40px;
+    border-top-left-radius: 90px !important;
+    width: 100px;
+    height: 100px;
+}     
+.back-window {
+    height: 100px;
+    width: 200px;
+}
+
+.wheels {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    position: relative;
+    top: 50px;
+
+}
+.right-wheel, .left-wheel {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   
+}
+
+.pipe {
+    height: 15px;
+    width: 30px;
+    background-color: gray;
+    position: relative;
+    top: 60px;
+
+}
+/* //Car */
+
+/* House */
+
+.house {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.roof {
+    background-color: red;
+    height: 300px;
+    width: 500px;
+    position: relative;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+
+
+}
+
+
+.house-body {
+    background-color: orange;
+    height: 500px;
+    width: 500px;
+    
+}
+
+.window {
+    background-color: yellow;
+    height: 130px;
+    width: 160px;
+    position: relative;
+    top: 100px;
+    left: 90px;
+}
+
+.door {
+    background-color: brown;
+    height: 300px;
+    width: 150px;
+    position: relative;
+    top: 70px;
+    left: 300px;
+}
+
+/* // House /*
+
+/* Human */
+
+.human {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    position: relative;
+    left: 80px;
+    top: 260px;
+}
+
+.head {
+    background-color: bisque;
+    width: 70px;
+    height: 70px;
+    border-radius: 90px;
+}
+
+.human-body {
+    display: flex;
+} 
+
+.torso {
+    background-color: blueviolet;
+    width: 90px;
+    height: 110px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+
+.left-hand, .right-hand {
+    background-color: bisque;
+    width: 20px;
+    height: 100px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.right-hand {
+    transform: rotate(-20deg);
+}
+
+.left-hand {
+    transform: rotate(20deg);
+}
+
+.legs {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.left-leg, .right-leg {
+    background-color: black;
+    width: 25px;
+    height: 110px;
+}
+
+/* // Human */
+
+
+
+
+
